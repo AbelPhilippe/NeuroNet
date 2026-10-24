@@ -77,7 +77,7 @@ Adjust the executable name if it differs in `CMakeLists.txt`.
 For a simple implementation that uses LibTorch directly, you can also compile with `g++`:
 
 ```bash
-g++ main.cpp -o neuronet \
+g++ neuronet.cpp -o neuronet \
   -I "$HOME/libs/libtorch/include" \
   -I "$HOME/libs/libtorch/include/torch/csrc/api/include" \
   -L "$HOME/libs/libtorch/lib" \
