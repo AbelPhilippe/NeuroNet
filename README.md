@@ -31,12 +31,12 @@ The network accepts batches of images and produces an output tensor with shape `
 
 ```text
 NeuroNet/
-| ── build/              # Generated build files
+| ── build/              # Generated build files (post)
 | ── onnxruntime/        # ONNX Runtime headers and/or libraries
 | ── CMakeLists.txt      # CMake configuration
 | ── neuronet.cpp        # Neural network implementation
-| ── README.md           # Project documentation
-| ── .gitignore          # Git exclusion rules
+| ── README.md
+| ── .gitignore
 ```
 
 ## Requirements
