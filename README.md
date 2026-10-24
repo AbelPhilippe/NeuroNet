@@ -34,7 +34,7 @@ NeuroNet/
 | ── build/              # Generated build files
 | ── onnxruntime/        # ONNX Runtime headers and/or libraries
 | ── CMakeLists.txt      # CMake configuration
-| ── main.cpp            # Neural network implementation
+| ── neuronet.cpp        # Neural network implementation
 | ── README.md           # Project documentation
 | ── .gitignore          # Git exclusion rules
 ```
@@ -42,7 +42,7 @@ NeuroNet/
 ## Requirements
 
 - Linux
-- C++17-compatible compiler
+- C++20-compatible compiler
 - CMake
 - LibTorch C++ distribution
 - ONNX Runtime, if required by additional project components
