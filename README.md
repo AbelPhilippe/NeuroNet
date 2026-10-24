@@ -27,12 +27,12 @@ The current neural network consists of:
 
 The network accepts batches of images and produces an output tensor with shape `[batch_size, 10]`.
 
-## Project Structure
+## My Project Structure
 
 ```text
 NeuroNet/
 | ── build/              # Generated build files (post)
-| ── onnxruntime/        # ONNX Runtime headers and/or libraries
+| ── onnxruntime/        # ONNX Runtime headers and/or libraries (optional)
 | ── CMakeLists.txt      # CMake configuration
 | ── neuronet.cpp        # Neural network implementation
 | ── README.md
