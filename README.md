@@ -92,4 +92,4 @@ Run it with:
 ./neuronet
 ```
 
-This command assumes a CPU-enabled LibTorch installation at `$HOME/libs/libtorch` and that `main.cpp` does not require additional libraries.
+This command assumes a CPU-enabled LibTorch installation at `$HOME/libs/libtorch` and that `neuronet.cpp` does not require additional libraries.
