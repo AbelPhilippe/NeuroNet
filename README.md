@@ -83,7 +83,7 @@ g++ neuronet.cpp -o neuronet \
   -L "$HOME/libs/libtorch/lib" \
   -Wl,-rpath,"$HOME/libs/libtorch/lib" \
   -ltorch -ltorch_cpu -lc10 \
-  -std=c++17
+  -std=c++20
 ```
 
 Run it with:
